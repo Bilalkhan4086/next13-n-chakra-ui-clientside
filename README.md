@@ -1,4 +1,4 @@
-## [Demo](https://design-with-chakra-ui-clientside.vercel.app/) for this app
+## [Demo](https://design-with-chakra-ui-clientside-c8241ambr-bilalkhan4086.vercel.app/) for this app
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
