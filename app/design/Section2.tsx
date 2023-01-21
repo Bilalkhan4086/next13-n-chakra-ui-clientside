@@ -14,7 +14,7 @@ const CustomListItem = (props: StackProps) => {
   const { children } = props;
   return (
     <HStack spacing={4}>
-      <CheckCircleIcon fontSize={"18px"} color="#805AD5" />
+      <CheckCircleIcon fontSize={"18px"} color="purple.600" />
       <Text fontSize={"18px"}>{children}</Text>
     </HStack>
   );
@@ -62,7 +62,12 @@ const Section2 = () => {
           justifyContent="center"
           margin={"auto"}
           marginTop={6}
-          backgroundColor={"#805AD5"}
+          backgroundColor={"purple.600"}
+          sx={{
+            "&:hover": {
+              color: "purple.600",
+            },
+          }}
         >
           Get Started
         </Button>
